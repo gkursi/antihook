@@ -22,13 +22,10 @@ static CatCommand forgive_all("pt_forgive_all", "Clear betrayal list", []() { be
 
 bool shouldTargetSteamId(unsigned id)
 {
-    if (betrayal_limit && betrayal_list[id] > (unsigned) *betrayal_limit)
-        return true;
-
     auto &pl = playerlist::AccessData(id);
-    if (playerlist::IsFriendly(pl.state) || (pl.state == playerlist::k_EState::CAT && *ignoreRosnehook))
-        return false;
-    return true;
+    if ((pl.state == playerlist::k_EState::CAT))
+        return true;
+    return false;
 }
 
 bool shouldTarget(CachedEntity *entity)
