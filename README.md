@@ -1,3 +1,7 @@
+A fork of rosnehook designed to kill other cathook based bots.
+**WIP**
+
+
 <p align="center">
   <img src="https://media.discordapp.net/attachments/1139676647407243315/1150613674201985096/IMG_2314.png">
 </p>
