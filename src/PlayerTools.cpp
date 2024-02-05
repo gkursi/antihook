@@ -25,7 +25,7 @@ bool shouldTargetSteamId(unsigned id)
     auto &pl = playerlist::AccessData(id);
     if ((pl.state == playerlist::k_EState::CAT))
         return true;
-    return false;
+    return true; // temp for testing
 }
 
 bool shouldTarget(CachedEntity *entity)
