@@ -1,19 +1,7 @@
 A fork of rosnehook designed to kill other cathook based bots.
-**WIP**
+**WIP**, not finished yet.
 
-
-<p align="center">
-  <img src="https://media.discordapp.net/attachments/1139676647407243315/1150613674201985096/IMG_2314.png">
-</p>
-
-# good pasted cheat 👍
-
-## Support
-
-https://dsc.gg/rosnehook
-
-## Download Rosnehook
-
-Open a terminal window and enter the following command:
-
-    bash <(wget -qO- https://raw.githubusercontent.com/RosneBurgerworks/One-in-all-rosnehook-install/master/install-all)
+## Installation
+TODO: make an install script
+Clone `github.com/rosneburgerworks/One-in-all-rosnehook-install`
+and replace all indtances of "temprosnehook" with "antihook"
